@@ -20,6 +20,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301  USA
 
+# Zack: Renamed directory protobuf-3.6.1 to protobuf
 # The files in protobuf-3.6.1/ are almost unmodified versions of google
 # source files taken from protobuf-cpp-3.6.1.tar.gz archive.
 # Changes:
@@ -199,7 +200,7 @@ endif()
 
 
 SET(PROTO_SRC_DIR
-  "${PROJECT_SOURCE_DIR}/protobuf-3.6.1/src")
+  "${PROJECT_SOURCE_DIR}/protobuf/src")
 
 
 file(WRITE "${PROJECT_BINARY_DIR}/exports.cmake"
